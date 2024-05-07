@@ -9,5 +9,7 @@ form.addEventListener("submit", (event) => {
 
   // Performing the division
   const resultValue = dividend / divider;
-
+  
+  // Display the result without decimal 
+  result.innerText = Math.floor(resultValue);
 });
