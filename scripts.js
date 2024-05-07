@@ -30,6 +30,7 @@ form.addEventListener("submit", (event) => {
   // Checking if both inputs are numbers
   if(isNaN(dividend) || isNaN(divider)){
     // Crashing the program
+    document.body.classList.add(`critical-error`);
     document.body.innerText = `Something critical went wrong. Please reload the page`;
     console.error(`Invalid inputs`, new Error(`Invalid input`));
     return;
