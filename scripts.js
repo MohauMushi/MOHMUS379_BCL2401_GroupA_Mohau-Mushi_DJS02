@@ -18,4 +18,11 @@ form.addEventListener("submit", (event) => {
     result.innerText = `Division not performed. Both values are required in inputs. Try again`;
     return;
   };
+
+  // Checking for the invalid divisions
+  if(divider === '0'){
+    result.innerText = `Division not performed. Invalid number provided. Try again`;
+    console.error(`Invalid devision`, new Error(`Division by Zero`));
+    return;
+  }
 });
