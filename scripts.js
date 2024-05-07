@@ -25,4 +25,9 @@ form.addEventListener("submit", (event) => {
     console.error(`Invalid devision`, new Error(`Division by Zero`));
     return;
   }
+
+  // Checking if both inputs are numbers
+  if(isNaN(dividend) || isNaN(divider)){
+    
+  };
 });
