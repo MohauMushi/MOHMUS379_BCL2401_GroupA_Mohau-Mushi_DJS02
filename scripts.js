@@ -21,6 +21,7 @@ form.addEventListener("submit", (event) => {
 
   // Checking for the invalid divisions
   if(divider === '0'){
+    result.classList.add(`error-message`);
     result.innerText = `Division not performed. Invalid number provided. Try again`;
     console.error(`Invalid devision`, new Error(`Division by Zero`));
     return;
