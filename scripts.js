@@ -12,4 +12,10 @@ form.addEventListener("submit", (event) => {
   
   // Display the result without decimal 
   result.innerText = Math.floor(resultValue);
+
+  // Checking if both inputs are empty or missing
+  if(!dividend || !divider){
+    result.innerText = `Division not performed. Both values are required in inputs. Try again`;
+    return;
+  };
 });
