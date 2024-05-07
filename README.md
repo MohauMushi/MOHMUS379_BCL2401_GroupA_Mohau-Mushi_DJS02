@@ -1,8 +1,4 @@
-# DJS02 Project Brief: Whole Number Divider
-
-This project focuses on enhancing a web-based Whole Number Divider application. It's designed to help students apply their knowledge of error handling, guided by specific user stories. Before proceeding, familiarise yourself with the Gherkin syntax, a crucial tool for understanding user stories and requirements. Refer to the provided reading materials for a comprehensive guide. Below is the HTML and JavaScript code for a “Whole Number Divider”. At the moment it only meets two user stories (see below under “Resolved Stories”). Please ensure that it meets all user stories listed below:
-
-This exercise provides user stories in [the Gherkin syntax](https://docs.behat.org/en/v2.5/guides/1.gherkin.html). Please make sure you understand the use and meaning of this syntax before continuing. Check out this resource from [Cucumber](https://cucumber.io/docs/gherkin/reference/).
+# DJS02: Whole Number Divider
 
 #### Project Overview
 
@@ -32,7 +28,7 @@ The provided HTML and JavaScript setup a basic form for inputting two numbers (d
 - AND 10 is entered into the second input
 - THEN 2 should be displayed at the bottom
  
-<h2 style="color:#e67e22">Unresolved Stories</h2> 
+<!-- <h2 style="color:#e67e22">Unresolved Stories</h2>  -->
 
 ### Scenario: Dividing numbers result in a decimal number
 
@@ -69,17 +65,11 @@ The provided HTML and JavaScript setup a basic form for inputting two numbers (d
 - THEN the entire screen should be replaced with “Something critical went wrong. Please reload the page
 - AND an error should be logged in the browser console that shows the call stack.
 
-#### Task Instructions
 
-1. **Review the Starter Code**: Understand the current implementation and its limitations.
-2. **Implement User Stories**: Modify the code to fulfill all unresolved user stories. Pay attention to error handling and user input validation.
-3. **Error Handling**: Ensure the application handles errors gracefully, providing clear feedback to the user without crashing.
-4. **Testing**: Test your application thoroughly with various inputs to ensure it meets all the user stories.
+## Challenges
+The challenge which i faced was first not knowing the Gherkin syntax and how it works, but through some reseach, i managed to understand the Gherkin syntax user story, and got to do the project and what was needed
 
-#### Submission Requirements
+## 📚 What I learnt
+ **Implement User Stories**: Modify the code to fulfill all unresolved user stories. Pay attention to error handling and user input validation.
 
-- Updated HTML and JavaScript files.
-- Submit your project to the LMS Project Tab for DJS02
-
-This project challenges you to think critically about user input, error handling, and providing a seamless user experience. Ensure your solution is robust, user-friendly, and meets the specified requirements.
-
+ **Error Handling**: Ensure the application handles errors gracefully, providing clear feedback to the user without crashing.
