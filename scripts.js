@@ -8,10 +8,10 @@ form.addEventListener("submit", (event) => {
   result.innerText = dividend / divider;
 
   // Performing the division
-  const resultValue = dividend / divider;
+  const decimalRemoveValue = dividend / divider;
   
   // Display the result without decimal 
-  result.innerText = Math.floor(resultValue);
+  result.innerText = Math.floor(decimalRemoveValue);
 
   // Checking if both inputs are empty or missing
   if(!dividend || !divider){
