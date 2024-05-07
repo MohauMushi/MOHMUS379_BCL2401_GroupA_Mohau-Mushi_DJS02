@@ -18,15 +18,6 @@ form.addEventListener("submit", (event) => {
     result.innerText = `Division not performed. Both values are required in inputs. Try again`;
     return;
   };
-
-  // Checking for the invalid divisions
-  if(divider === '0'){
-    result.classList.add(`error-message`);
-    result.innerText = `Division not performed. Invalid number provided. Try again`;
-    console.error(`Invalid devision`, new Error(`Division by Zero`));
-    return;
-  }
-
   // Checking if both inputs are numbers
   if(isNaN(dividend) || isNaN(divider)){
     // Crashing the program
@@ -35,4 +26,14 @@ form.addEventListener("submit", (event) => {
     console.error(`Invalid inputs`, new Error(`Invalid input`));
     return;
   };
+  
+  // Checking for the invalid divisions
+  if(divider === '0'){
+    result.classList.add(`error-message`);
+    result.innerText = `Division not performed. Invalid number provided. Try again`;
+    console.error(`Invalid devision`, new Error(`Division by Zero`));
+    return;
+  }
+
+  
 });
